@@ -1,0 +1,43 @@
+# Ignore build results
+/build/
+.gradle/
+.gradle-cache/
+**/build/
+
+# Ignore Gradle wrapper files
+/gradle/wrapper/gradle-wrapper.properties
+/gradle/wrapper/gradle-wrapper.jar
+
+# Ignore IDE-specific files
+.idea/
+/*.iml
+*.iws
+*.ipr
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore IntelliJ IDEA project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore output of the Kotlin compiler
+/out/
+bin/
+*.class
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore user-specific configuration files
+*.user

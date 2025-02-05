@@ -1,0 +1,21 @@
+{
+    "name": "Kotlin Console Development",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            },
+            "extensions": [
+                "fwcd.kotlin",
+                "GitHub.copilot",
+                "GitHub.copilot-chat",
+                "vscjava.vscode-gradle"
+            ]
+        }
+    },
+    "postCreateCommand": "kotlinc -version"
+}
